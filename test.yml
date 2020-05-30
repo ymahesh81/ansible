@@ -1,0 +1,6 @@
+---
+  - hosts: webservers
+    tasks
+      - name: to ping
+        module: ping
+        
